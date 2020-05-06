@@ -1,0 +1,22 @@
+function squareA (k); {
+ return k*k
+ console.log 25
+ }
+ 
+ 
+ 
+ 
+ function squareB (k); {
+ }
+ 
+ console.log
+ 
+ Function  squareB does'nt have a return will error out. So squareA finished first
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
