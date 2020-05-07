@@ -1,4 +1,4 @@
-function squareA (k); {
+function squareA (k) {
  return k*k
  console.log 25
  }
@@ -14,9 +14,48 @@ function squareA (k); {
  Function  squareB does'nt have a return will error out. So squareA finished first
  
  
- 
- 
- 
- 
- 
- 
+ function Outer() {
+  inner(10) ;
+  console.log("Calling Outer!")
+  }
+  
+  
+  
+  function Inner(num) {
+   console.log(num*num);
+   console.log("Inside");
+   }
+   
+   Outer();
+   
+   console.log("Just Calling Inner...\n");
+   
+   inner(2);
+   
+   
+   
+   
+   
+   
+   My code example finish product.
+   
+   
+   
+   
+   function A() {
+    B(20)
+    console.log("Calling First Letter!");
+}
+
+
+function B(num) {
+    console.log(num*num);
+    console.log("Are you there");
+}
+
+
+A();
+
+console.log("Are we done yet");
+
+B(2);
